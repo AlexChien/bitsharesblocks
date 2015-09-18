@@ -5,7 +5,8 @@ angular.module("app").factory('api', ['$http', function($http) {
     var cb = '?callback=JSON_CALLBACK';
 
     var apis = [
-        'http://104.131.23.218:2095'
+        // 'http://104.131.23.218:2095'
+        'http://blocks.dacplay.org:2095'
     ];
 
     url = apis[0] + '/v1/';
