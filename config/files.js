@@ -42,7 +42,7 @@ module.exports = function(lineman) {
       "app/css/**/*.css"
     ],
     pages: {
-      source: "app/components/index/*.us"
+      source: "app/components/index/*.cn"
     }
   };
 };
