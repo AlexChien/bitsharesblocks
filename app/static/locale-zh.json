@@ -7,9 +7,9 @@
     "assets": "资产",
     "charts": "图表",
     "general": "通用",
-    "supply": "BTS供应量和手续费",
-    "btsgenesis": "BTS创世块",
-    "btsxgenesis": "BTSX创世块",
+    "supply": "PLS供应量和手续费",
+    "btsgenesis": "PLS创世块",
+    "btsxgenesis": "PLSX创世块",
     "about": "关于"
   },
   "alerts": {
@@ -29,10 +29,10 @@
   "apiModal": {
     "title": "Change API server",
     "body": "You are automatically assigned an API server close to you, but if you are experiencing issues you may manually select a new API server here:",
-    "close": "Close",
-    "auto": "Automatic (default)",
-    "new_york": "New York, USA",
-    "singapore": "Singapore",
+    "close": "关闭",
+    "auto": "自动 (默认)",
+    "new_york": "纽约，美国",
+    "singapore": "新加坡",
     "api": "API"
   },
   "home": {
@@ -57,7 +57,7 @@
       "new24": "过去24小时的新受托人",
       "new7d": "过去7天的新受托人",
       "pay": "最大的支付率",
-      "averagePay": "Average pay rate"
+      "averagePay": "平均支付率"
     },
     "blockchain": {
       "title": "区块链统计",
@@ -82,8 +82,8 @@
     "user": {
       "title": "用户统计",
       "number": "账户数量",
-      "unique": "Number of unique accounts",
-      "uniqueNew": "New unique accounts",
+      "unique": "独立账户数量",
+      "uniqueNew": "新增独立账户",
       "sub": "子账户数量",
       "new24": "过去24小时的新账户",
       "new7d": "过去7天的新账号"
@@ -98,9 +98,9 @@
       "title": "新用户"
     },
     "burns": {
-      "title": "BURN-BOX",
-      "recent": "Most recent burns",
-      "largest": "Largest burns"
+      "title": "销毁箱",
+      "recent": "最近销毁留言",
+      "largest": "最大的销毁"
     }
   },
   "blocks": {
@@ -133,9 +133,9 @@
       "hash1": "上一个哈希值",
       "hash2": "下一个秘密哈希值",
       "hash3": "前一个秘密哈希值",
-      "shares": "Shares issued",
-      "collected": "Fees collected",
-      "destroyed": "Fees destroyed"
+      "shares": "新增供给量",
+      "collected": "手续费",
+      "destroyed": "手续费销毁"
     },
     "trx": {
       "title": "交易",
@@ -193,8 +193,8 @@
     "rel": "稳定率",
     "version": "版本",
     "filter": "筛选",
-    "no_version": "Not set",
-    "active": "Show active delegates",
+    "no_version": "未设定",
+    "active": "显示活跃受托人",
     "standby": "包含待命受托人"
   },
   "delegate": {
@@ -220,7 +220,7 @@
       "proposal": "受托人的目标",
       "location": "服务器的位置",
       "country": "代表国家",
-      "handle": "BitsharesTalk论坛用户名",
+      "handle": "PlayTalk论坛用户名",
       "ann": "公告",
       "role": "角色",
       "website": "网站",
@@ -261,7 +261,7 @@
       "net": "净票数 >= 10,000"
     },
     "slate": {
-      "title": "SLATE"
+      "title": "投票名单"
     }
   },
   "accounts": {
@@ -275,7 +275,7 @@
     "name": "帐户名",
     "id": "ID",
     "reg": "注册日期",
-    "regBlock": "Registration block",
+    "regBlock": "注册区块",
     "update": "最后更新",
     "yes": "是的",
     "no": "没有",
@@ -291,9 +291,9 @@
     "date": "日期",
     "key": "公钥",
     "website": "网站",
-    "burn": "BURN OPERATIONS",
-    "parent": "Parent account",
-    "subs": "Sub-accounts"
+    "burn": "销毁操作",
+    "parent": "父账户",
+    "subs": "子账户"
   },
   "assets": {
     "plot": {
@@ -313,16 +313,16 @@
       "th6": "股份供应量",
       "th7": "24小时交易量",
       "th8": "市值",
-      "yield": "Yield"
+      "yield": "收益率"
     },
     "user": {
-      "show": "Show user issued assets",
+      "show": "S显示用户发行资产",
       "title": "用户自定义资产",
       "th1": "资产ID",
-      "th3": "24hr Average Price",
+      "th3": "24小时均价",
       "th4": "当前供应量",
       "th5": "最大供应量",
-      "th6": "Initialized"
+      "th6": "初始化"
     }
   },
   "asset": {
@@ -333,10 +333,10 @@
     "priceH": "价格历史",
     "alert1": "市场不活跃：没有足够的活跃喂价种子数目",
     "alert2": "市场不活跃：没有足够的市场深度",
-    "alert3": "The orderbook is empty",
+    "alert3": "订单为空",
     "collateral": "抵押品",
     "supply": "供应",
-    "supplyAnd": "以及抵押品（BTS）历史",
+    "supplyAnd": "以及抵押品（PLS）历史",
     "sell": "卖",
     "buy": "买",
     "short": "做空",
@@ -344,7 +344,7 @@
     "ohlc": "价格: 开盘/最高/最低/收盘",
     "external": "外部Coinmarketcap价格",
     "volume": "交易量",
-    "marketAsset": "Market issued asset",
+    "marketAsset": "市场锚定资产",
     "range": "24h range",
     "assetInfo": {
       "title": "资产信息",
@@ -362,8 +362,8 @@
       "med": "喂价种子中位数",
       "null": "过去24小时没有足够的种子数",
       "last": "最后的更新(UTC时间)",
-      "dev": "Deviation from median",
-      "dev_avg": "Average deviation from median"
+      "dev": "偏移量",
+      "dev_avg": "平均偏移量"
     },
     "covers": {
       "title": "MARGIN CALL ORDERS",
@@ -380,13 +380,13 @@
       "btsTrx": "{{ value }}交易的种类",
       "trxCount": "{{ value }} 交易的数量",
       "volume": "{{ value }} 交易量",
-      "btcPrice": "BTS/BTC价格历史",
+      "btcPrice": "PLS/BTC价格历史",
       "usdPrice": "价格历史",
-      "prices": "PRICE CHARTS",
-      "trx": "TRANSACTION CHARTS",
-      "accounts": "ACCOUNTS CHARTS",
-      "supply": "SUPPLY CHARTS",
-      "feeds": "FEEDS CHARTS"
+      "prices": "价格历史",
+      "trx": "交易量",
+      "accounts": "用户账户",
+      "supply": "供应量",
+      "feeds": "喂价"
     },
     "value": "价值",
     "reg": "账户注册",
@@ -396,26 +396,26 @@
     "new": "新账号",
     "ma15": "15天移动平均价",
     "feeds": {
-      "title": "FEED TRACKING",
-      "latest": "Latest price",
-      "vwap": "24hr weighted average price",
-      "deviation": "Deviation from feed"
+      "title": "喂价跟踪",
+      "latest": "最近价格",
+      "vwap": "24小时加权均价",
+      "deviation": "偏移量"
     }
   },
   "supply": {
-    "title1": "INFO",
-    "title2": "在BTS硬分叉后供应量的改变",
+    "title1": "概述",
+    "title2": "在PLS硬分叉后供应量的改变",
     "title3": "{{ value }}供应总量",
     "title4": "随着时间过去付出的{{ value }}交易费",
     "height": "BTSX转为BTS的硬分叉区块高度",
     "supply": "分叉时供应量",
     "change": "在硬分叉后改变的供应量",
-    "changeY": "{{ value }} annualized inflation",
+    "changeY": "{{ value }} 年化通胀",
     "supplyY": "{{ value }}供应量",
     "feesY": "{{ value }}交易费",
-    "inflation": "Current annualized inflation",
-    "final": "Estimated final supply",
-    "max": "Theoretical maximum supply"
+    "inflation": "当前年化通胀率",
+    "final": "预估供给总量",
+    "max": "理论最大供给量"
   },
   "genesis": {
     "stats": "统计数据",
