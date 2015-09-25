@@ -24,7 +24,10 @@
     "info": "Информация/Обновления",
     "thread": "Ветка в BitsharesTalk",
     "version": "Версия клиента",
-    "language": "Язык"
+    "language": "Язык",
+    "select_region": "Select Region",
+    "asia_pacific": "Asia Pacific",
+    "north_amercia": "North America"
   },
   "apiModal": {
     "title": "Изменить API сервер",
@@ -345,7 +348,7 @@
     "external": "Внешняя капитализация",
     "volume": "Объем",
     "marketAsset": "Выпущенный рынком актив",
-    "range": "Дневной Диапазон",    
+    "range": "Дневной Диапазон",
     "assetInfo": {
       "title": "Информация об активе",
       "base": "Базовый актив",

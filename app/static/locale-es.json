@@ -24,7 +24,10 @@
     "info": "Info/Actualizaciones",
     "thread": "Hilo de BitsharesTalk",
     "version": "Version del cliente",
-    "language": "Idioma"
+    "language": "Idioma",
+    "select_region": "Select Region",
+    "asia_pacific": "Asia Pacific",
+    "north_amercia": "North America"
   },
   "apiModal": {
     "title": "Change API server",
@@ -84,7 +87,7 @@
       "number": "Número de cuentas",
       "unique": "Number of unique accounts",
       "uniqueNew": "New unique accounts",
-      "sub": "Número de sub-cuentas",      
+      "sub": "Número de sub-cuentas",
       "new24": "Nuevas cuentas últimas 24h",
       "new7d": "Nuevas cuentas últimos 7d"
     },

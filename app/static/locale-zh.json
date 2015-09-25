@@ -1,6 +1,6 @@
 {
   "nav": {
-    "home": "主页",
+    "home": "概览",
     "blocks": "区块",
     "delegates": "受托人",
     "accounts": "账户",
@@ -24,7 +24,10 @@
     "info": "信息/更新",
     "thread": "BitsharesTalk论坛帖子",
     "version": "客户端版本",
-    "language": "语言"
+    "language": "语言",
+    "select_region": "选择区域",
+    "asia_pacific": "亚太区",
+    "north_amercia": "北美区"
   },
   "apiModal": {
     "title": "Change API server",
@@ -99,8 +102,8 @@
     },
     "burns": {
       "title": "销毁箱",
-      "recent": "最近销毁留言",
-      "largest": "最大的销毁"
+      "recent": "最近的销毁留言",
+      "largest": "最大的销毁留言"
     }
   },
   "blocks": {

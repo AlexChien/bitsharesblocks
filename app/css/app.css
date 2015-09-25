@@ -67,15 +67,15 @@ h1 {
   text-align:center;
 }
 
-body { padding-top: 70px; 
+body { padding-top: 70px;
   max-width: 1400px;
   margin: 0px auto;
-  background-image: url(../img/pw_pattern.png);
+/*  background-image: url(../img/pw_pattern.png);*/
 }
 
 
   #footer {
-    position: fixed;
+/*    position: fixed;*/
     left: 0;
     bottom: 0;
     width: 100%;
@@ -196,7 +196,7 @@ its own definition of keyframe animation code...
 }
 
 th {
-  text-align: center;  
+  text-align: center;
 }
 table td {
   text-align: center;
@@ -264,7 +264,7 @@ table td {
   }
 }
 
-.modal-open { 
+.modal-open {
   overflow: scroll;
 }
 
@@ -272,13 +272,13 @@ table td {
 .tab-content > .tab-pane,
 .pill-content > .pill-pane {
   display: block;     /* undo display:none          */
-  height: 0;          /* height:0 is also invisible */ 
+  height: 0;          /* height:0 is also invisible */
   overflow-y: hidden; /* no-overflow                */
 }
 .tab-content > .active,
 .pill-content > .active {
   height: auto;       /* let the content decide it  */
-} 
+}
 /* bootstrap hack end */
 
 .clickable {

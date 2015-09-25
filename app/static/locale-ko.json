@@ -24,7 +24,10 @@
     "info": "정보/업데이트",
     "thread": "BitsharesTalk Thread",
     "version": "클라이언트 버전",
-    "language": "언어"
+    "language": "언어",
+    "select_region": "Select Region",
+    "asia_pacific": "Asia Pacific",
+    "north_amercia": "North America"
   },
   "apiModal": {
     "title": "API 서버 변경",

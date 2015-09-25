@@ -198,17 +198,35 @@
 
   <div ng-cloak ng-controller="footerCtrl" role="footer" id="footer" class="hidden-xs">
     <div class="text-center" style="vertical-align-middle; margin:0;">
-      <p style="display:inline-block;"><span translate>footer.vote</span>:</p>
-      <a href="pls:dev.bitsharesblocks/approve">dev.bitsharesblocks</a>
-      <p style="display:inline-block; margin-left:1.5em;"><span translate>footer.donate</span>:</p>
-      <a href="pls:donations.bitsharesblocks/transfer">donations.bitsharesblocks</a>
-      <p style="display:inline-block; margin-left:1.5em;"><span translate>footer.info</span>:</p>
-      <a href="https://bitsharestalk.org/index.php?topic=11272.0" target="_blank" translate>footer.thread</a>
-      <p style="display:inline-block; margin-left:1.5em;"><small><span translate>footer.version</span>: <a href="https://github.com/BitShares/bitshares/releases" target="_blank"> {{ clientVersion }}</a></p>
-      <label style="display:inline-block; margin-left:1.5em;"><span translate>footer.language</span>:&nbsp;</label><i class="fa fa-globe fa-lg"></i>
-      <button style="border-color:rgba(226, 226, 226, 0);" type="button" class="btn btn-default" placement="top" ng-model="language" ng-options="language.value for language in languages" bs-select>
-        Action <span class="caret"></span>
-      </button>
+			<div class="row">
+				<div class="col-md-6 text-center" style="vertical-align-middle; margin:0;">
+		      <p style="display:inline-block;"><small><span translate>footer.vote</span>:
+		      <a href="pls:dev.bitsharesblocks/approve">dev.bitsharesblocks</a></small></p>
+		      <p style="display:inline-block; margin-left:1.5em;"><small><span translate>footer.donate</span>:
+		      <a href="pls:donations.bitsharesblocks/transfer">donations.bitsharesblocks</a></small></p>
+		      <p style="display:inline-block; margin-left:1.5em;"><small><span translate>footer.info</span>:
+		      <a href="https://bitsharestalk.org/index.php?topic=11272.0" target="_blank" translate>footer.thread</a></small></p>
+				</div>
+				<div class="col-md-6">
+		      <p style="display:inline-block; margin-left:1.5em;"><small><span translate>footer.version</span>: <a href="https://github.com/BitShares/bitshares/releases" target="_blank"> {{ clientVersion }}</a></p>
+					<p style="display:inline-block; margin-left:1.5em;">
+		      <label style="display:inline-block;"><span translate>footer.language</span>:&nbsp;</label><i class="fa fa-globe fa-lg"></i>
+		      <button style="border-color:rgba(226, 226, 226, 0);" type="button" class="btn btn-default" placement="top" ng-model="language" ng-options="language.value for language in languages" bs-select>
+		        Action <span class="caret"></span>
+		      </button>
+					</p>
+
+					<p style="display:inline-block; margin-left:1.5em;">
+					<label style="display:inline-block; margin-left:1.5em;"><span translate>footer.select_region</span>:&nbsp;</label>
+					<select name="region_selector" id="region_selector" onchange="javascript:if (this.value != '') window.location=this.value;">
+						<option value="https://blocks.dacplay.org" selected translate>footer.asia_pacific</option>
+						<option value="http://play.bitsharesblocks.com" translate>footer.north_amercia</option>
+					</select>
+					</p>
+				</div>
+			</div>
+
+
         <!-- <button type="button" style="margin-left:1.5em" class="btn btn-default" placement="bottom" data-animation="am-fade-and-slide-top" data-template="apiModal.html" container="body" bs-modal="modal">{{ 'apiModal.api' | translate }}
         <br>
       </button> -->

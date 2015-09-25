@@ -24,7 +24,10 @@
 		"info": "Informações/Atualizações",
 		"thread": "Tópico de BitsharesTalk",
 		"version": "Versão do Cliente",
-		"language": "Linguagem"
+		"language": "Linguagem",
+    "select_region": "Select Region",
+    "asia_pacific": "Asia Pacific",
+    "north_amercia": "North America"
 	},
 	"apiModal": {
 		"title": "Alterar Servidor API",

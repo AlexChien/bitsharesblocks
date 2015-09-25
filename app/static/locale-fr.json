@@ -24,7 +24,10 @@
     "info": "Info/MAJ",
     "thread": "BitsharesTalk Sujet",
     "version": "Vérsion du client",
-    "language": "Langue"
+    "language": "Langue",
+    "select_region": "Select Region",
+    "asia_pacific": "Asia Pacific",
+    "north_amercia": "North America"
   },
   "apiModal": {
     "title": "Changer de serveur d'API",

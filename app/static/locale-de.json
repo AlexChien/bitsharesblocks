@@ -24,7 +24,10 @@
 		"info": "Info/Aktuelles",
 		"thread": "BitsharesTalk.org Beiträge",
 		"version": "Client Version",
-		"language": "Sprache"
+		"language": "Sprache",
+    "select_region": "Select Region",
+    "asia_pacific": "Asia Pacific",
+    "north_amercia": "North America"
 	},
 	"apiModal": {
 		"title": "API Server wechseln",
