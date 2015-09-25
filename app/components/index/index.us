@@ -131,18 +131,8 @@
             <li ui-sref-active='active'>
               <a ui-sref="accounts" translate>nav.accounts</a>
             </li>
-<!--             <li ui-sref-active='active'>
-              <a ui-sref="assets.market" translate>nav.assets</a>
-            </li> -->
-            <li ui-sref-active='active' dropdown is-open="status.isopen" style="cursor:pointer;">
-              <a class="dropdown-toggle" ng-disabled="disabled" translate>
-                nav.charts<span class="caret"></span>
-              </a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a ui-sref="charts.prices" translate>nav.general</a></li>
-<!--                 <li><a ui-sref="genesisbts" translate translate-values="{ value: 'BTS'}">nav.btsgenesis</a></li>
-                <li><a ui-sref="genesisbtsx" translate>nav.btsxgenesis</a></li> -->
-              </ul>
+            <li ui-sref-active='active'>
+              <a ui-sref="charts.prices" translate>nav.charts</a>
             </li>
           </ul>
         </nav>
