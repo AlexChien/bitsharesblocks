@@ -2,6 +2,7 @@ angular.module('app.services', [])
 
 .constant('appcst', {
 	R_ISO8601_STR: /^(\d{4})-?(\d\d)-?(\d\d)(?:T(\d\d)(?::?(\d\d)(?::?(\d\d)(?:\.(\d+))?)?)?(Z|([+-])(\d\d):?(\d\d))?)?$/,
+    title: "DAC PLAY :: ",
 	baseAsset: 'PLS',
 	basePrecision: 100000,
 	translation: {
@@ -13,7 +14,7 @@ angular.module('app.services', [])
 			"assets": "Assets",
 			"charts": "Charts",
 			"general": "General",
-			"supply": "BTS Supply and Fees",
+			"supply": "PLS Supply and Fees",
 			"btsgenesis": "{{ value }} Genesis",
 			"btsxgenesis": "PLS Genesis",
 			"about": "About"
@@ -392,7 +393,7 @@ angular.module('app.services', [])
 				"btsTrx": "{{ value }} TRANSACTION TYPES",
 				"trxCount": "{{ value }} NUMBER OF TRANSACTIONS",
 				"volume": "{{ value }} TRANSACTION VOLUME",
-				"btcPrice": "BTS/BTC PRICE HISTORY",
+				"btcPrice": "PLS/BTC PRICE HISTORY",
 				"usdPrice": "PRICE HISTORY",
 				"prices": "PRICE CHARTS",
 				"trx": "TRANSACTION CHARTS",
@@ -419,7 +420,7 @@ angular.module('app.services', [])
 			"title2": "ANNUALIZED DAILY INFLATION",
 			"title3": "TOTAL SUPPLY OF {{ value }}",
 			"title4": "{{ value }} FEES PAID OVER TIME",
-			"height": "Height of BTSX => BTS hardfork block",
+			"height": "Height of PLS => PLS hardfork block",
 			"supply": "Supply at fork",
 			"change": "Change in supply since launch",
 			"changeY": "{{ value }} annualized inflation",
